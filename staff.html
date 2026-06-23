@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff | Broadway United Methodist Church</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #f7f3eb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #26362f;
+      color: white;
+      padding: 24px 8%;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+    }
+
+    .page-hero {
+      background: #3f564a;
+      color: white;
+      padding: 90px 8%;
+      text-align: center;
+    }
+
+    .page-hero h2 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 60px 8%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .staff-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    .staff-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: #ddd;
+      margin: 0 auto 20px auto;
+    }
+
+    .card h3 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .position {
+      text-align: center;
+      color: #666;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .dark {
+      background: #26362f;
+      color: white;
+      max-width: none;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div>
+      <h1>Broadway United Methodist Church</h1>
+      <p style="font-style: italic;">Open Hearts. Open Minds. Open Doors.</p>
+    </div>
+
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="staff.html">Staff</a>
+    </div>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <h2>Meet Our Staff</h2>
+  <p>Serving Christ and the Broadway community together.</p>
+</div>
+
+<section>
+  <div class="staff-grid">
+
+    <div class="card">
+      <div class="staff-photo"></div>
+      <h3>Rev. Krysha Jamis</h3>
+      <div class="position">Lead Pastor</div>
+      <p>
+        Rev. Krysha Jamis serves as the Lead Pastor of Broadway United Methodist Church.
+        She provides spiritual leadership through preaching, teaching, pastoral care,
+        and guiding the congregation in worship, discipleship, and service.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="staff-photo"></div>
+      <h3>Zach Levy</h3>
+      <div class="position">Director of Youth Ministry and Contemporary Worship</div>
+      <p>
+        Zach Levy leads the church's youth ministry and contemporary worship ministry.
+        He works with students, families, and the congregation to foster discipleship,
+        meaningful worship, and opportunities for spiritual growth.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="dark">
+  <h2>Join Us This Sunday</h2>
+  <p>Worship begins at 9:30 AM</p>
+  <p>106 Church St, Broadway, NC 27505</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Broadway United Methodist Church</p>
+</footer>
+
+</body>
+</html>
